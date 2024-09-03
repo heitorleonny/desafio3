@@ -1,0 +1,110 @@
+html{
+    margin: 0;
+    height: 100%;
+    background-color: #050A24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    
+    form{
+        background-color: white;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        border-radius: 20px;
+        padding: 48px 72px;
+        gap: 24px;
+
+        label{
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        a{
+            font-size: 16px;
+            font-weight: 400;
+            color: #1570EF;
+            text-decoration: none;
+        }
+
+        h1{
+            margin-botom: 8px;
+            color: black;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        input{
+            font-size: 14px;
+            font-weight: 400;
+            padding: 17px 16px 17px 16px;
+            border: solid 1px #D0D5DD;
+            border-radius: 8px;
+            width: 396px;
+
+        }
+
+        .item-input{
+            gap: 12px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row{
+            display: flex;
+            flex-direction: rown;
+            justify-content: space-between;
+        }
+
+        p{
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        button{
+            background-color: #1570EF;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            border: none;
+            border-radius: 8px;
+            
+
+        }
+
+        button:hover{
+            background-color: blue;
+        }
+
+        
+    }
+}
+
+@media (max-width: 600px){
+    
+    form{
+        padding: 24px 16px;
+        max-width: 288px;
+
+        h1{
+            font-size: 20px;
+            text-align: center;
+    
+        }
+        p{
+            font-size: 12px;
+        }    
+
+        input{
+            max-width: 256px;
+        }
+
+        
+    }
+}
